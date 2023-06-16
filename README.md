@@ -70,7 +70,7 @@
 
 ### Source code deployment
 + **This item is for developers**
-+ **First make sure Visual Studio 2022 is installed on your computer and **
++ **First make sure Visual Studio 2022 is installed on your computer and**
 + **And installed .NET 6 SDK, Windows 11 SDK, Windows AppSDK and other development environments**
 
 
