@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Natsurainko.FluentLauncher (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Natsurainko.FluentLauncher (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
