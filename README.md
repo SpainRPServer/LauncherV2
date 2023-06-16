@@ -35,7 +35,7 @@
 - [Getting Started Guide](#Getting-Started-Guide)
   - [Pre-run configuration requirements](#Pre-run-configuration-requirements)
   - [Installation method](#Installation-method)
-- [Source code deployment](#Source code-deployment)
+- [Source code deployment](#Source-code-deployment)
 - [Contributor](#Contributor)
   - [How to participate in open source projects](#How-to-participate-in-open-source-projects)
 - [Version Control](#Version-Control)
