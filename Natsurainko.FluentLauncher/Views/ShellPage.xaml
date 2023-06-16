@@ -72,7 +72,7 @@
                     Tag="Natsurainko.FluentLauncher.Views.Activities.ActivitiesNavigationPage" />
                 <NavigationViewItem
                     x:Uid="Navigation_Mods"
-                    Content="Mods"
+                    Content="Download SpainRP"
                     Icon="{xh:FontIcon Glyph=&#xe8f1;}"
                     Tag="Natsurainko.FluentLauncher.Views.Downloads.CurseForgePage" />
             </NavigationView.MenuItems>

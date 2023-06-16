@@ -108,7 +108,6 @@
                                         <ColumnDefinition Width="1*" />
                                     </Grid.ColumnDefinitions>
                                     <ComboBox Grid.Column="0" SelectedIndex="0">
-                                        <x:String>Mods</x:String>
                                         <x:String>Modpacks</x:String>
                                     </ComboBox>
                                     <ComboBox
@@ -124,8 +123,6 @@
                                     <ColumnDefinition Width="Auto" />
                                     <ColumnDefinition Width="1*" />
                                 </Grid.ColumnDefinitions>
-                                <ToggleButton x:Name="ToggleButton" Content="Open Categories Pane" />
-                                <AppBarSeparator Grid.Column="1" Margin="10,0" />
                                 <AutoSuggestBox
                                     x:Name="AutoSuggestBox"
                                     Grid.Column="2"
@@ -133,7 +130,7 @@
                                     PlaceholderText="Mod Name">
                                     <i:Interaction.Behaviors>
                                         <core:EventTriggerBehavior EventName="QuerySubmitted">
-                                            <actions:ModifiedInvokeCommandAction Command="{Binding SearchCommand}" CommandParameter="{Binding ElementName=AutoSuggestBox, Path=Text}" />
+                                            <actions:ModifiedInvokeCommandAction Command="{Binding SearchCommand}" CommandParameter="{Binding ElementName=SpainRP, Path=Text}" />
                                         </core:EventTriggerBehavior>
                                     </i:Interaction.Behaviors>
                                     <AutoSuggestBox.QueryIcon>
