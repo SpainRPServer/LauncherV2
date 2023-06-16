@@ -111,14 +111,14 @@ Copyright (c) 2022-2023 Xcube Studio
 - [mcbbs](https://download.mcbbs.net)
 
 <!-- links -->
-[your-project-path]:Xcube-Studio/Natsurainko.FluentLauncher
-[contributors-shield]: https://img.shields.io/github/contributors/Xcube-Studio/Natsurainko.FluentLauncher.svg?style=flat-square
-[contributors-url]: https://github.com/Xcube-Studio/Natsurainko.FluentLauncher/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Xcube-Studio/Natsurainko.FluentLauncher.svg?style=flat-square
-[forks-url]: https://github.com/Xcube-Studio/Natsurainko.FluentLauncher/network/members
-[stars-shield]: https://img.shields.io/github/stars/Xcube-Studio/Natsurainko.FluentLauncher.svg?style=flat-square
-[stars-url]: https://github.com/Xcube-Studio/Natsurainko.FluentLauncher/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Xcube-Studio/Natsurainko.FluentLauncher.svg?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/Xcube-Studio/Natsurainko.FluentLauncher.svg
-[license-shield]: https://img.shields.io/github/license/Xcube-Studio/Natsurainko.FluentLauncher.svg?style=flat-square
-[license-url]: https://github.com/Xcube-Studio/Natsurainko.FluentLauncher/blob/master/LICENSE.txt
+[your-project-path]:SpainRPServer/LauncherV2/
+[contributors-shield]: https://img.shields.io/github/contributors/SpainRPServer/LauncherV2/.svg?style=flat-square
+[contributors-url]: https://github.com/SpainRPServer/LauncherV2//graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/SpainRPServer/LauncherV2/.svg?style=flat-square
+[forks-url]: https://github.com/SpainRPServer/LauncherV2//network/members
+[stars-shield]: https://img.shields.io/github/stars/SpainRPServer/LauncherV2/.svg?style=flat-square
+[stars-url]: https://github.com/SpainRPServer/LauncherV2//stargazers
+[issues-shield]: https://img.shields.io/github/issues/SpainRPServer/LauncherV2/.svg?style=flat-square
+[issues-url]: https://img.shields.io/github/issues/SpainRPServer/LauncherV2/.svg
+[license-shield]: https://img.shields.io/github/license/SpainRPServer/LauncherV2/.svg?style=flat-square
+[license-url]: https://github.com/SpainRPServer/LauncherV2//blob/master/LICENSE.txt
