@@ -24,7 +24,6 @@
       <a href="https://github.com/SpainRPServer/LauncherV2/releases">Releases</a>
       ·
       <a href="https://github.com/SpainRPServer/LauncherV2/issues">Report bug</a>
-      ·
     </p>
   </p>
 </p>
