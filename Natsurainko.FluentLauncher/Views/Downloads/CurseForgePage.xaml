@@ -110,11 +110,7 @@
                                     <ComboBox Grid.Column="0" SelectedIndex="0">
                                         <x:String>Modpacks</x:String>
                                     </ComboBox>
-                                    <ComboBox
-                                        Grid.Column="2"
-                                        ItemsSource="{Binding Versions}"
-                                        PlaceholderText="version"
-                                        SelectedItem="{Binding SelectedVersion, Mode=TwoWay}" />
+                                       
                                 </Grid>
                             </Grid>
                             <Grid Margin="0,10,0,0">
@@ -130,7 +126,7 @@
                                     PlaceholderText="Mod Name">
                                     <i:Interaction.Behaviors>
                                         <core:EventTriggerBehavior EventName="QuerySubmitted">
-                                            <actions:ModifiedInvokeCommandAction Command="{Binding SearchCommand}" CommandParameter="{Binding ElementName=SpainRP, Path=Text}" />
+                                            <actions:ModifiedInvokeCommandAction Command="{Binding SearchCommand}" CommandParameter="{Binding ElementName='SpainRP', Path=Text}" />
                                         </core:EventTriggerBehavior>
                                     </i:Interaction.Behaviors>
                                     <AutoSuggestBox.QueryIcon>

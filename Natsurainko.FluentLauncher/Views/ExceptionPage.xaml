@@ -21,7 +21,7 @@
                 Margin="0,0,0,16"
                 FontSize="26"
                 FontWeight="Bold"
-                Text="An error has occurred when starting Fluent Launcher" />
+                Text="An error has occurred when starting SpainRP Launcher" />
             <TextBlock Text="Please report this issue on GitHub." />
             <TextBlock Text="Providing the following information might help us fix the issue:" />
         </StackPanel>

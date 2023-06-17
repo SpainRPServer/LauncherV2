@@ -17,7 +17,7 @@ partial class AboutViewModel : ObservableObject
 
 #if DEBUG
     [ObservableProperty]
-    private string edition = "Debug Edition";
+    private string edition = "Prerelease Edition";
 #else
     [ObservableProperty]
     private string edition = "Release Edition";
@@ -25,13 +25,13 @@ partial class AboutViewModel : ObservableObject
 
     [RelayCommand]
     public async void CheckUpdate()
-        => await Launcher.LaunchUriAsync(new Uri("ms-windows-store://pdp/?productid=9P4NQQXQ942P"));
+        => await Launcher.LaunchUriAsync(new Uri("https://github.com/SpainRPServer/LauncherV2/releases"));
 
     [RelayCommand]
     public async void OpenGit()
-        => await Launcher.LaunchUriAsync(new Uri("https://github.com/Xcube-Studio/Fluent-Launcher"));
+        => await Launcher.LaunchUriAsync(new Uri("https://github.com/SpainRPServer/LauncherV2/"));
 
     [RelayCommand]
     public async void OpenAuthor()
-        => await Launcher.LaunchUriAsync(new Uri("https://github.com/Xcube-Studio/Natsurainko.FluentLauncher/graphs/contributors"));
+        => await Launcher.LaunchUriAsync(new Uri("https://github.com/SpainRPServer/LauncherV2/releases/graphs/contributors"));
 }

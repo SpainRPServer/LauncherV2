@@ -29,7 +29,7 @@
                     x:Uid="About_AboutFluentLauncher"
                     Margin="1,0,0,4"
                     Style="{StaticResource BodyStrongTextBlockStyle}"
-                    Text="About Fluent Launcher" />
+                    Text="About SpainRP Launcher" />
 
                 <labs:SettingsCard HeaderIcon="{xh:FontIcon Glyph=&#xecaa;}">
                     <labs:SettingsCard.Header>
@@ -46,7 +46,7 @@
                     <Button Command="{Binding CheckUpdateCommand}">
                         <TextBlock
                             x:Uid="About_CheckUpdate"
-                            Text="Check Updates in the Microsoft Store"
+                            Text="Check Updates in Github"
                             TextTrimming="CharacterEllipsis" />
                     </Button>
                 </labs:SettingsCard>

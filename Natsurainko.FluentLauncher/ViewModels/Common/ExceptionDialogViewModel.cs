@@ -26,6 +26,6 @@ public partial class ExceptionDialogViewModel : DialogViewModel
         Clipboard.SetContent(package);
 
         // Launch GitHub
-        await Launcher.LaunchUriAsync(new Uri("https://github.com/Xcube-Studio/Natsurainko.FluentLauncher/issues/new/choose"));
+        await Launcher.LaunchUriAsync(new Uri("https://github.com/SpainRPServer/LauncherV2/issues/new/choose"));
     }
 }

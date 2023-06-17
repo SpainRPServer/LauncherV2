@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_AboutFluentLauncher.Text" xml:space="preserve">
+    <value>Acerca de SpainRP Launcher</value>
+  </data>
+  <data name="About_Acknowledgments.Text" xml:space="preserve">
+    <value>Reconocimientos</value>
+  </data>
+  <data name="About_Acknowledgments_Content.Text" xml:space="preserve">
+    <value>Gracias por todos los servicios prestados a esta aplicación</value>
+  </data>
+  <data name="About_CheckUpdate.Text" xml:space="preserve">
+    <value>Comprobar actualizaciones en GitHub</value>
+  </data>
+  <data name="About_Copyright.Text" xml:space="preserve">
+    <value>Copyright</value>
+  </data>
+  <data name="About_Credits.Text" xml:space="preserve">
+    <value>Creditos</value>
+  </data>
+  <data name="About_Developer_Tag.Text" xml:space="preserve">
+    <value>el desarrollador de esta aplicación</value>
+  </data>
+  <data name="About_OtherInfo.Text" xml:space="preserve">
+    <value>Otra información</value>
+  </data>
+  <data name="About_ProvideDownloadSource.Text" xml:space="preserve">
+    <value>Proporcionar fuente de descarga</value>
+  </data>
+  <data name="About_References.Text" xml:space="preserve">
+    <value>Referencias</value>
+  </data>
+  <data name="About_References_Content.Text" xml:space="preserve">
+    <value>Bibliotecas utilizadas para el desarrollo de esta aplicación</value>
+  </data>
+  <data name="About_Sources.Text" xml:space="preserve">
+    <value>Fuentes</value>
+  </data>
+  <data name="About_Sources_Content.Text" xml:space="preserve">
+    <value>Navegar al repositorio de GitHub</value>
+  </data>
+  <data name="About_Statements.Text" xml:space="preserve">
+    <value>Declaraciones</value>
+  </data>
+  <data name="About_Statements_Content.Text" xml:space="preserve">
+    <value>Minecraft es propiedad de Mojang Studios. No somos responsables de ninguna infracción de derechos de autor que surja del uso de este software.</value>
+  </data>
+  <data name="CF_Download_Files.Content" xml:space="preserve">
+    <value>Descargar archivos</value>
+  </data>
+  <data name="Cores_Install.Text" xml:space="preserve">
+    <value>Instalar nuevo núcleo</value>
+  </data>
+  <data name="Cores_New_Name.PlaceholderText" xml:space="preserve">
+    <value>Nuevo nombre</value>
+  </data>
+  <data name="Cores_Search.PlaceholderText" xml:space="preserve">
+    <value>Search Core...</value>
+  </data>
+  <data name="Cores_ToolTip_1.Text" xml:space="preserve">
+    <value>Buscar nucleo...</value>
+  </data>
+  <data name="Cores_ToolTip_2.Text" xml:space="preserve">
+    <value>Renombrar</value>
+  </data>
+  <data name="Cores_ToolTip_3.Text" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="Cores_ToolTip_4.Text" xml:space="preserve">
+    <value>Generar script de inicio</value>
+  </data>
+  <data name="Cores_ToolTip_5.Text" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="Cores_ToolTip_6.Text" xml:space="preserve">
+    <value>Mas</value>
+  </data>
+  <data name="Cores_ToolTip_7.Text" xml:space="preserve">
+    <value>Iniciar</value>
+  </data>
+  <data name="Guide_Account_Accounts.Text" xml:space="preserve">
+    <value>Cuentas</value>
+  </data>
+  <data name="Guide_Account_Login.Text" xml:space="preserve">
+    <value>Iniciar sesion con Microsoft</value>
+  </data>
+  <data name="Guide_Account_Offline.Text" xml:space="preserve">
+    <value>¿No tienes cuenta de Microsoft?</value>
+  </data>
+  <data name="Guide_Account_Para_1.Text" xml:space="preserve">
+    <value>Necesitas al menos una cuenta para jugar</value>
+  </data>
+  <data name="Guide_Account_Para_2.Text" xml:space="preserve">
+    <value>El acceso a los servidores en línea solo es posible con una cuenta Microsoft</value>
+  </data>
+  <data name="Guide_Account_Para_3.Text" xml:space="preserve">
+    <value>El servidor no verificará las cuentas sin conexión</value>
+  </data>
+  <data name="Guide_Account_Title.Text" xml:space="preserve">
+    <value>Cuenta</value>
+  </data>
+  <data name="Guide_Account_Website.Text" xml:space="preserve">
+    <value>Sitio official de Minecraft</value>
+  </data>
+  <data name="Guide_Back.Content" xml:space="preserve">
+    <value>Atras</value>
+  </data>
+  <data name="Guide_Basic_Folder.Text" xml:space="preserve">
+    <value>Carpeta .minecraft:</value>
+  </data>
+  <data name="Guide_Basic_Java.Text" xml:space="preserve">
+    <value>Ejecutables de java:</value>
+  </data>
+  <data name="Guide_Basic_Para_1.Text" xml:space="preserve">
+    <value>Necesitas al menos un directorio .minecraft para almacenar tus núcleos de juego</value>
+  </data>
+  <data name="Guide_Basic_Para_2.Text" xml:space="preserve">
+    <value>Necesitas al menos un Java Runtime para iniciar el núcleo de tu juego</value>
+  </data>
+  <data name="Guide_Basic_Para_3.Text" xml:space="preserve">
+    <value>Una vez hecho esto, también puede modificar esta configuración en la configuración global del juego.</value>
+  </data>
+  <data name="Guide_Basic_Title.Text" xml:space="preserve">
+    <value>Configuración básica de inicio</value>
+  </data>
+  <data name="Guide_GetStarted_Description.Text" xml:space="preserve">
+    <value>Tienes todos los ajustes básicos hechos</value>
+  </data>
+  <data name="Guide_GetStarted_Start.Content" xml:space="preserve">
+    <value>Comencemos</value>
+  </data>
+  <data name="Guide_GetStarted_Title.Text" xml:space="preserve">
+    <value>Todo terminado</value>
+  </data>
+  <data name="Guide_Navigation_Account.Text" xml:space="preserve">
+    <value>Cuenta</value>
+  </data>
+  <data name="Guide_Navigation_Basic.Text" xml:space="preserve">
+    <value>Configuracion basica</value>
+  </data>
+  <data name="Guide_Navigation_GetStarted.Text" xml:space="preserve">
+    <value>Comenzar</value>
+  </data>
+  <data name="Guide_Navigation_Language.Text" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="Guide_Next.Content" xml:space="preserve">
+    <value>Siguiente</value>
+  </data>
+  <data name="Guide_Welcome.Text" xml:space="preserve">
+    <value>Bienvenido</value>
+  </data>
+  <data name="Home_Account.Text" xml:space="preserve">
+    <value>Cuenta</value>
+  </data>
+  <data name="Home_ComboBox.PlaceholderText" xml:space="preserve">
+    <value>Selecciona Game Core</value>
+  </data>
+  <data name="Home_Launch.Text" xml:space="preserve">
+    <value>Iniciar Minecraft</value>
+  </data>
+  <data name="Home_NoAccount.Text" xml:space="preserve">
+    <value>Sin cuenta</value>
+  </data>
+  <data name="Mods_Install_New_Core.Content" xml:space="preserve">
+    <value>Instalar nuevo núcleo</value>
+  </data>
+  <data name="Navigation_Activities.Content" xml:space="preserve">
+    <value>Actividades</value>
+  </data>
+  <data name="Navigation_Activities_Application.Content" xml:space="preserve">
+    <value>Aplicacion</value>
+  </data>
+  <data name="Navigation_Activities_Download.Content" xml:space="preserve">
+    <value>Descargas</value>
+  </data>
+  <data name="Navigation_Activities_Launch.Content" xml:space="preserve">
+    <value>Iniciar</value>
+  </data>
+  <data name="Navigation_Activities_News.Content" xml:space="preserve">
+    <value>Noticias</value>
+  </data>
+  <data name="Navigation_Cores.Content" xml:space="preserve">
+    <value>Nucleos</value>
+  </data>
+  <data name="Navigation_Home.Content" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="Navigation_Mods.Content" xml:space="preserve">
+    <value>Mods</value>
+  </data>
+  <data name="Navigation_Options_Launch.Content" xml:space="preserve">
+    <value>Configuracion de inicio</value>
+  </data>
+  <data name="Navigation_Options_Mods.Content" xml:space="preserve">
+    <value>Mods</value>
+  </data>
+  <data name="Navigation_Options_Property.Text" xml:space="preserve">
+    <value>Propiedad</value>
+  </data>
+  <data name="Navigation_Options_Saves.Content" xml:space="preserve">
+    <value>Guardados</value>
+  </data>
+  <data name="Navigation_Settings.Content" xml:space="preserve">
+    <value>Configuracion</value>
+  </data>
+  <data name="Navigation_Settings_About.Content" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="Navigation_Settings_Account.Content" xml:space="preserve">
+    <value>Cuenta</value>
+  </data>
+  <data name="Navigation_Settings_Appearance.Content" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="Navigation_Settings_Download.Content" xml:space="preserve">
+    <value>Descargar</value>
+  </data>
+  <data name="Navigation_Settings_Launch.Content" xml:space="preserve">
+    <value>Iniciar</value>
+  </data>
+  <data name="OfflineAccountDialog_Name.PlaceholderText" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="OfflineAccountDialog_UUID.PlaceholderText" xml:space="preserve">
+    <value>UUID (Opcional)</value>
+  </data>
+  <data name="Properties_Information_Header.Text" xml:space="preserve">
+    <value>Propiedad</value>
+  </data>
+  <data name="Properties_Information_Item_1.Text" xml:space="preserve">
+    <value>Ruta:</value>
+  </data>
+  <data name="Properties_Information_Item_2.Text" xml:space="preserve">
+    <value>Ultimo inicio:</value>
+  </data>
+  <data name="Properties_Information_Item_3.Text" xml:space="preserve">
+    <value>Cargadores de mods:</value>
+  </data>
+  <data name="Properties_Information_Item_4.Text" xml:space="preserve">
+    <value>Tamaño de espacio en disco ocupado:</value>
+  </data>
+  <data name="Properties_Information_Item_5.Text" xml:space="preserve">
+    <value>Número de archivos de biblioteca dependientes:</value>
+  </data>
+  <data name="Properties_Information_Item_6.Text" xml:space="preserve">
+    <value>Número de archivos de activos dependientes:</value>
+  </data>
+  <data name="Properties_Information_Subtitle.Text" xml:space="preserve">
+    <value>Propiedades básicas del núcleo</value>
+  </data>
+  <data name="Properties_Launch_Header_1.Text" xml:space="preserve">
+    <value>Perfil guardado en:</value>
+  </data>
+  <data name="Properties_Launch_Header_2.Text" xml:space="preserve">
+    <value>Enable spcific game settings</value>
+  </data>
+  <data name="Properties_Launch_Item.Text" xml:space="preserve">
+    <value>Núcleo independiente:</value>
+  </data>
+  <data name="Properties_Mod_Author.Text" xml:space="preserve">
+    <value> autores:</value>
+  </data>
+  <data name="Properties_Mod_Description.Text" xml:space="preserve">
+    <value>descripción:</value>
+  </data>
+  <data name="Properties_Mod_Header.Text" xml:space="preserve">
+    <value>Carpeta de mods:</value>
+  </data>
+  <data name="Properties_Mod_Version.Text" xml:space="preserve">
+    <value> versión:</value>
+  </data>
+  <data name="Settings_Account_Header.Text" xml:space="preserve">
+    <value>Cuentas</value>
+  </data>
+  <data name="Settings_Account_Item_1.Text" xml:space="preserve">
+    <value>Cuenta actual</value>
+  </data>
+  <data name="Settings_Account_Item_2.Text" xml:space="preserve">
+    <value>Detalles de la cuetna</value>
+  </data>
+  <data name="Settings_Account_Item_3.Text" xml:space="preserve">
+    <value>Añadir una nueva cuenta</value>
+  </data>
+  <data name="Settings_Account_Item_4.Text" xml:space="preserve">
+    <value>Borrar la cuenta actualr</value>
+  </data>
+  <data name="Settings_Account_Item_5.Text" xml:space="preserve">
+    <value>Inicie el juego con una cuenta Demo:</value>
+  </data>
+  <data name="Settings_Account_Item_6.Text" xml:space="preserve">
+    <value>Cuenta de actualización automática: (antes del lanzamiento)</value>
+  </data>
+  <data name="Settings_Account_Subtitle.Text" xml:space="preserve">
+    <value>Cuenta después de entrar al juego</value>
+  </data>
+  <data name="Settings_Account_Type.PlaceholderText" xml:space="preserve">
+    <value>Tipo de cuenta</value>
+  </data>
+  <data name="Settings_Choose_Account_Type.Text" xml:space="preserve">
+    <value>Elija el tipo de cuenta</value>
+  </data>
+  <data name="Settings_Confirm_Role.Text" xml:space="preserve">
+    <value>Confirmar rol</value>
+  </data>
+  <data name="Settings_Confirm_Role_Desc.Text" xml:space="preserve">
+    <value>Hay varios roles aquí, debe elegir uno para continuar</value>
+  </data>
+  <data name="Settings_Download_Header.Text" xml:space="preserve">
+    <value>Descargar</value>
+  </data>
+  <data name="Settings_Download_Item_1.Text" xml:space="preserve">
+    <value>Fuentes de descarga actuales:</value>
+  </data>
+  <data name="Settings_Download_Item_2.Text" xml:space="preserve">
+    <value>Número máximo de subprocesos de descarga:</value>
+  </data>
+  <data name="Settings_Download_Item_3.Text" xml:space="preserve">
+    <value>Habilite la descarga fragmentada de archivos grandes:</value>
+  </data>
+  <data name="Settings_Download_Subtitle.Text" xml:space="preserve">
+    <value>Configuración para descargar recursos del juego</value>
+  </data>
+  <data name="Settings_Launch_Header_1.Text" xml:space="preserve">
+    <value>Carpeta de .minecraft</value>
+  </data>
+  <data name="Settings_Launch_Header_2.Text" xml:space="preserve">
+    <value>Tiempo de ejecución de Java</value>
+  </data>
+  <data name="Settings_Launch_Header_3.Text" xml:space="preserve">
+    <value>Configuraciones de juego</value>
+  </data>
+  <data name="Settings_Launch_Header_4.Text" xml:space="preserve">
+    <value>Ajustes de idioma</value>
+  </data>
+  <data name="Settings_Launch_Item_1.Text" xml:space="preserve">
+    <value>Carpeta .Minecraft actual:</value>
+  </data>
+  <data name="Settings_Launch_Item_10.Text" xml:space="preserve">
+    <value>Núcleo global independiente:</value>
+  </data>
+  <data name="Settings_Launch_Item_11.Text" xml:space="preserve">
+    <value>Modo de pantalla completa:</value>
+  </data>
+  <data name="Settings_Launch_Item_12.Text" xml:space="preserve">
+    <value>Resolución de la ventana del juego:</value>
+  </data>
+  <data name="Settings_Launch_Item_13.Text" xml:space="preserve">
+    <value>Resolución de la ventana del juego:</value>
+  </data>
+  <data name="Settings_Launch_Item_14.Text" xml:space="preserve">
+    <value>Título de la ventana del juego:</value>
+  </data>
+  <data name="Settings_Launch_Item_15.Text" xml:space="preserve">
+    <value>Configuraciones específicas del juego</value>
+  </data>
+  <data name="Settings_Launch_Item_16.Text" xml:space="preserve">
+    <value>Configuración de lanzamiento global</value>
+  </data>
+  <data name="Settings_Launch_Item_17.ActionIconToolTip" xml:space="preserve">
+    <value>Ir a la página de núcleos</value>
+  </data>
+  <data name="Settings_Launch_Item_17.Header" xml:space="preserve">
+    <value>Editar la configuración específica del juego</value>
+  </data>
+  <data name="Settings_Launch_Item_2.Text" xml:space="preserve">
+    <value>Abrir la carpeta .minecraft:</value>
+  </data>
+  <data name="Settings_Launch_Item_3.Text" xml:space="preserve">
+    <value>Elimine la carpeta .minecraft:</value>
+  </data>
+  <data name="Settings_Launch_Item_4.Text" xml:space="preserve">
+    <value>Tiempo de ejecución actual de Java:</value>
+  </data>
+  <data name="Settings_Launch_Item_5.Text" xml:space="preserve">
+    <value>Abra el tiempo de ejecución de Java:</value>
+  </data>
+  <data name="Settings_Launch_Item_6.Text" xml:space="preserve">
+    <value>Seleccione automáticamente el Java adecuado:</value>
+  </data>
+  <data name="Settings_Launch_Item_7.Text" xml:space="preserve">
+    <value>Elimine el tiempo de ejecución actual de Java:</value>
+  </data>
+  <data name="Settings_Launch_Item_8.Text" xml:space="preserve">
+    <value>Memoria JVM:</value>
+  </data>
+  <data name="Settings_Launch_Item_9.Text" xml:space="preserve">
+    <value>Asigne automáticamente memoria JVM:</value>
+  </data>
+  <data name="Settings_Launch_Subtitle_1.Text" xml:space="preserve">
+    <value>Dónde almacenar el núcleo de tu juego</value>
+  </data>
+  <data name="Settings_Launch_Subtitle_2.Text" xml:space="preserve">
+    <value>Ejecutable para iniciar el juego</value>
+  </data>
+  <data name="Settings_Launch_Subtitle_3.Text" xml:space="preserve">
+    <value>Configuracion del gameplay</value>
+  </data>
+  <data name="Settings_Microsoft_Account_Loading.Text" xml:space="preserve">
+    <value>Cargando...</value>
+  </data>
+  <data name="Settings_Yggdrasil_Login.PlaceholderText" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="Settings_Yggdrasil_Password.PlaceholderText" xml:space="preserve">
+    <value>Contraseña:</value>
+  </data>
+  <data name="Settings_Yggdrasil_Url.PlaceholderText" xml:space="preserve">
+    <value>Yggdrasil Server Url:</value>
+  </data>
+  <data name="Title_Offline_Account.Text" xml:space="preserve">
+    <value>Cuenta offiline</value>
+  </data>
+  <data name="_Buttons_Back.Text" xml:space="preserve">
+    <value>Atras</value>
+  </data>
+  <data name="_Buttons_Browse.Text" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="_Buttons_Cancel.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="_Buttons_Check.Text" xml:space="preserve">
+    <value>Comprobar</value>
+  </data>
+  <data name="_Buttons_Confirm.Text" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="_Buttons_Delete.Text" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="_Buttons_Expand.Text" xml:space="preserve">
+    <value>Expandir</value>
+  </data>
+  <data name="_Buttons_Install.Text" xml:space="preserve">
+    <value>Instalar</value>
+  </data>
+  <data name="_Buttons_Next.Text" xml:space="preserve">
+    <value>Siguiente</value>
+  </data>
+  <data name="_Buttons_Refresh.Text" xml:space="preserve">
+    <value>Recargar</value>
+  </data>
+  <data name="_Buttons_Remove.Text" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="_Buttons_Rename.Text" xml:space="preserve">
+    <value>Renombrar</value>
+  </data>
+  <data name="_Buttons_Search.Text" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="_Buttons_SignIn.Text" xml:space="preserve">
+    <value>Iniciar Sesion</value>
+  </data>
+  <data name="_TeachingTips_Delete.Subtitle" xml:space="preserve">
+    <value>¿Está seguro de que desea eliminar? Una vez eliminado, no se puede restaurar</value>
+  </data>
+  <data name="_TeachingTips_Rename.Subtitle" xml:space="preserve">
+    <value>Introduce un nombre válido</value>
+  </data>
+</root>

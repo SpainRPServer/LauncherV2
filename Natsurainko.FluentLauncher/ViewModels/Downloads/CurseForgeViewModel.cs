@@ -61,14 +61,16 @@ internal partial class CurseForgeViewModel : ObservableObject
     [ObservableProperty]
     private bool enableCategory;
 
+    
     [RelayCommand]
     public Task Search(string name) => Task.Run(async () =>
     {
         var resources = (await ModService.SearchResourcesAsync(
-            name,
+            "SpainRP",
             gameVersion: selectedVersion.Equals("All") ? default : selectedVersion,
             categoryId: enableCategory ? selectedCategory.Id : default));
 
         App.MainWindow.DispatcherQueue.TryEnqueue(() => Resources = resources);
     });
+
 }

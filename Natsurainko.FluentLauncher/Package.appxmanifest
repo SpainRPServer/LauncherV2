@@ -8,8 +8,8 @@
 
   <Identity
     Name="SpainRPServer.SpainRP.Launcher"
-    Publisher="CN=SpainRP"
-    Version="1.0.0.0" />
+    Publisher="CN=SpainRPServer"
+    Version="1.0.1.0" />
 
   <Properties>
     <DisplayName>SpainRP.Launcher</DisplayName>
