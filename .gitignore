@@ -32,7 +32,6 @@ bld/
 [Ll]ogs/
 
 .vs/
-AppPackages
 *.cache
 .editorconfig
 *.pfx
