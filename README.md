@@ -13,7 +13,7 @@
 
 <p align="center">
   <a href="https://github.com/SpainRPServer/LauncherV2">
-    <img src="docs/images/AppIcon.png" alt="Logo" width="80" height="80">
+    <img src="/Natsurainko.FluentLauncher/Assets/PackageIcons/SmallTile.scale-400.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">SpainRP Launcher</h3>
