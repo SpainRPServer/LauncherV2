@@ -33,5 +33,5 @@ partial class AboutViewModel : ObservableObject
 
     [RelayCommand]
     public async void OpenAuthor()
-        => await Launcher.LaunchUriAsync(new Uri("https://github.com/SpainRPServer/LauncherV2/releases/graphs/contributors"));
+        => await Launcher.LaunchUriAsync(new Uri("https://github.com/SpainRPServer/LauncherV2/graphs/contributors"));
 }

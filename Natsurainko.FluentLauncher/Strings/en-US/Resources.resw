@@ -127,7 +127,7 @@
     <value>Thanks for all the services provided to this app</value>
   </data>
   <data name="About_CheckUpdate.Text" xml:space="preserve">
-    <value>Check Updates in the Microsoft Store</value>
+    <value>Check Updates in GitHub</value>
   </data>
   <data name="About_Copyright.Text" xml:space="preserve">
     <value>Copyright</value>
@@ -136,7 +136,7 @@
     <value>Credits</value>
   </data>
   <data name="About_Developer_Tag.Text" xml:space="preserve">
-    <value>the Developer of this Application</value>
+    <value>The Developer of this Application</value>
   </data>
   <data name="About_OtherInfo.Text" xml:space="preserve">
     <value>Other Information</value>

@@ -33,7 +33,7 @@
 
                 <labs:SettingsCard HeaderIcon="{xh:FontIcon Glyph=&#xecaa;}">
                     <labs:SettingsCard.Header>
-                        <TextBlock FontWeight="SemiBold" Text="Fluent Launcher" />
+                        <TextBlock FontWeight="SemiBold" Text="SpainRP Launcher" />
                     </labs:SettingsCard.Header>
 
                     <labs:SettingsCard.Description>
@@ -161,8 +161,8 @@
                                     Text="{Binding}" />
                             </DataTemplate>
                         </GridView.ItemTemplate>
-                        <x:String>Natsurainko</x:String>
-                        <x:String>gaviny82</x:String>
+                        <x:String>Tresillo</x:String>
+                        <x:String>ManuFlosoYT</x:String>
                     </GridView>
                 </labs:SettingsCard>
 
